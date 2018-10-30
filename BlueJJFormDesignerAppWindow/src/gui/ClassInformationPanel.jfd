@@ -1,0 +1,185 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_171" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+				"autoSize": false
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 102, 102, 102, 255 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Compile"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 10
+					"y": 10
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "Undo"
+					"enabled": false
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 85
+					"y": 10
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "Cut"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 150
+					"y": 10
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 675
+					"y": 15
+					"width": 120
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"text": "Copy"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 205
+					"y": 10
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5"
+					"text": "Paste"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button5ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 270
+					"y": 10
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button6"
+					"text": "Find..."
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button6ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 340
+					"y": 10
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button7"
+					"text": "Close"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button7ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 415
+					"y": 10
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 45
+				"width": 815
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel3"
+				"background": new java.awt.Color( 204, 204, 204, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 45
+				"height": 585
+				"width": 60
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :::p, comp panel4:::::x, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp panel4:::p::p, space :::x}}"
+				} ) {
+					name: "panel2"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+						"$horizontalGroup": "par l {seq l {space :p:27:p, par l {seq {comp textArea1:::p:591:p, space :0:0:x}, seq l {par t:::p {comp panel5::l:::x, comp textArea2::l::666:x}, space ::23:x}}}}"
+						"$verticalGroup": "par l {seq l {space :::p, comp textArea1:::::x, space :p:3:p, comp textArea2::::48:x, space u:::p, comp panel5:::p::p, space ::61:x}}"
+					} ) {
+						name: "panel4"
+						"background": new java.awt.Color( 204, 255, 204, 255 )
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea1"
+							"background": new java.awt.Color( 204, 255, 204, 255 )
+							"text": "/**\n * Write a description of class FirstClass here.\n *\n * @author (your name)\n * @version (a version number or a date)\n */\npublic class FirstClass\n{"
+							"font": new java.awt.Font( "Monospaced", 0, 12 )
+						} )
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea2"
+							"text": "// instance variables - replace the example below with your own\n    private int x;"
+							"font": new java.awt.Font( "Monospaced", 0, 12 )
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+							"$horizontalGroup": "par l {seq {space :::p, par l {comp textArea3:::::x, comp panel6:::::x, comp textArea6::l::646:x, comp panel7::t:::x}, space :::p}}"
+							"$verticalGroup": "par l {seq l {space :::p, comp textArea3:::::x, space :::p, comp panel6:::p::p, space s:::p, comp textArea6::::145:x, space :::p, comp panel7:::::x, space ::21:x}}"
+						} ) {
+							name: "panel5"
+							"background": new java.awt.Color( 255, 255, 255, 255 )
+							add( new FormComponent( "javax.swing.JTextArea" ) {
+								name: "textArea3"
+								"background": new java.awt.Color( 255, 255, 204, 255 )
+								"text": "/**\n     * Constructor for objects of class FirstClass\n     */\n    public FirstClass()\n    {"
+								"font": new java.awt.Font( "Monospaced", 0, 12 )
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+								"$horizontalGroup": "par l {seq t {space :p:49:p, comp textArea4:::::x, space :::p}, seq l {space :p:30:p, comp textArea5:::p::p, space :::x}}"
+								"$verticalGroup": "par l {seq l {space :::p, comp textArea4:::::x, space :::p, comp textArea5:::::x, space :::p}}"
+							} ) {
+								name: "panel6"
+								"background": new java.awt.Color( 255, 255, 204, 255 )
+								add( new FormComponent( "javax.swing.JTextArea" ) {
+									name: "textArea4"
+									"text": "// initialise instance variables\nx = 0;"
+									"font": new java.awt.Font( "Monospaced", 0, 12 )
+								} )
+								add( new FormComponent( "javax.swing.JTextArea" ) {
+									name: "textArea5"
+									"background": new java.awt.Color( 255, 255, 204, 255 )
+									"text": "}"
+									"font": new java.awt.Font( "Monospaced", 0, 12 )
+								} )
+							} )
+							add( new FormComponent( "javax.swing.JTextArea" ) {
+								name: "textArea6"
+								"background": new java.awt.Color( 255, 255, 204, 255 )
+								"text": "/**\n     * An example of a method - replace this comment with your own\n     *\n     * @param  y  a sample parameter for a method\n     * @return    the sum of x and y\n     */\n    public int sampleMethod(int y)\n    {"
+								"font": new java.awt.Font( "Monospaced", 0, 12 )
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+								"$horizontalGroup": "par l {seq t {space :p:45:p, comp textArea7:::::x, space :::p}, seq l {space :p:31:p, comp textArea8:::p:18:p, space :::x}}"
+								"$verticalGroup": "par l {seq l {space :::p, comp textArea7::::33:x, space ::13:x, comp textArea8:::::x}}"
+							} ) {
+								name: "panel7"
+								"background": new java.awt.Color( 255, 255, 204, 255 )
+								add( new FormComponent( "javax.swing.JTextArea" ) {
+									name: "textArea7"
+									"text": "// put your code here\n return x + y;"
+									"font": new java.awt.Font( "Monospaced", 0, 12 )
+								} )
+								add( new FormComponent( "javax.swing.JTextArea" ) {
+									name: "textArea8"
+									"background": new java.awt.Color( 255, 255, 204, 255 )
+									"text": "}"
+									"font": new java.awt.Font( "Monospaced", 0, 12 )
+								} )
+							} )
+						} )
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 45
+				"width": 755
+				"height": 580
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 815, 625 )
+		} )
+	}
+}

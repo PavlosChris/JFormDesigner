@@ -1,0 +1,537 @@
+JFDML JFormDesigner: "6.0.3.0.150" Java: "1.8.0_161" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"$sizePolicy": 1
+			"$locationPolicy": 1
+			"resizable": false
+			"defaultCloseOperation": 3
+			"title": "BlueJ"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "New Class..."
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 15
+				"width": 100
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/arrow.PNG" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 40
+				"width": 100
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "Compile"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 70
+				"width": 100
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Teamwork"
+				"font": new java.awt.Font( "Tahoma", 1, 12 )
+				"visible": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 185
+				"x": 15
+				"width": 70
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "Share..."
+				"visible": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 25
+				"y": 205
+				"width": 80
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Testing"
+				"font": new java.awt.Font( "Tahoma", 1, 12 )
+				"visible": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 15
+				"y": 245
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "Run Tests"
+				"margin": new java.awt.Insets( 2, 6, 2, 6 )
+				"visible": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button5ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 35
+				"y": 270
+				"width": 75
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "Recording"
+				"enabled": false
+				"visible": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 35
+				"y": 295
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"text": "End"
+				"enabled": false
+				"visible": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button6ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 320
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button7"
+				"text": "Cancel"
+				"margin": new java.awt.Insets( 2, 4, 2, 4 )
+				"enabled": false
+				"visible": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button7ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 350
+				"width": 50
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button8"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/DownArrow.PNG" )
+				"visible": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button8ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 40
+				"y": 160
+				"width": 45
+				"height": 16
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button9"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/return.PNG" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button9ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 720
+				"y": 580
+				"width": 40
+			} )
+			add( new FormComponent( "javax.swing.JProgressBar" ) {
+				name: "progressBar1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 570
+				"y": 582
+				"height": 25
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Initialising Virtual Machine... Done."
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 585
+				"height": 20
+				"width": 175
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button10"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/UpArrow.PNG" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button10ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 40
+				"y": 380
+				"width": 45
+				"height": 19
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel3"
+					"background": new java.awt.Color( 252, 244, 244, 255 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button11"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/document.PNG" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button11ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 31
+						"y": 33
+						"width": 50
+						"height": 60
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "FirstClass"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 155
+						"y": 40
+						"width": 60
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button12"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/ClassNull.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button12ActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "button12MouseDragged", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 138
+						"y": 33
+						"width": 90
+						"height": 55
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 120
+				"y": 20
+				"width": 640
+				"height": 380
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 252, 244, 244, 255 )
+				"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button13"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/ArrowLeft.PNG" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button13ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 720
+					"y": 60
+					"width": 20
+					"height": 55
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button14"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/ArrowRight.PNG" )
+					"visible": false
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button14ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 20
+					"height": 50
+					"x": 450
+					"y": 60
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {comp textField1::l::268:x}"
+					"$verticalGroup": "par l {seq t {space :0:138:x, comp textField1:::p::p}}"
+				} ) {
+					name: "panel2"
+					"background": new java.awt.Color( 252, 244, 244, 255 )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+					"visible": false
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 470
+					"y": 0
+					"width": 270
+					"height": 160
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 410
+				"width": 740
+				"height": 160
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "Project"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem1"
+						"text": "New Project"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem2"
+						"text": "Open Project..."
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu6"
+						"text": "Open Recent"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem44"
+							"text": "C:\\Users\\User1\\Documents\\BlueJ"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem3"
+						"text": "Open NonBlueJ..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem4"
+						"text": "Open ZIP/JAR..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem5"
+						"text": "Close"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem6"
+						"text": "Save"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem7"
+						"text": "Save As..."
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator3"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem8"
+						"text": "Import..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem9"
+						"text": "Create Jar File..."
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator2"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem10"
+						"text": "Print..."
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator1"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem11"
+						"text": "Quit"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "Edit"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem12"
+						"text": "New Class..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem13"
+						"text": "New Package..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem14"
+						"text": "New CSS File..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem15"
+						"text": "Add Class from File..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem16"
+						"text": "Delete"
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator4"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem17"
+						"text": "New Inheritance Arrow..."
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu3"
+					"text": "Tools"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem18"
+						"text": "Compile"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem19"
+						"text": "Compile Selected"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem20"
+						"text": "Rebuild Package"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem21"
+						"text": "Reset Java Virtual Machine"
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator7"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem22"
+						"text": "Use Library Class..."
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem23"
+						"text": "Project Documentation"
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu7"
+						"text": "Testing"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem26"
+							"text": "Run Tests"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem27"
+							"text": "End Recording"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem28"
+							"text": "Cancel Recording"
+							"enabled": false
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu8"
+						"text": "Team"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem29"
+							"text": "Checkout Project..."
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem30"
+							"text": "Share this Project..."
+						} )
+						add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+							name: "separator8"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem31"
+							"text": "Update from Repository"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem32"
+							"text": "Commit to Repository"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem33"
+							"text": "Share"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem34"
+							"text": "Project History"
+							"enabled": false
+						} )
+						add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+							name: "separator9"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem35"
+							"text": "Teamwork Settings"
+							"enabled": false
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator6"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem24"
+						"text": "Preferences..."
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator5"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem25"
+						"text": "Submit"
+						"enabled": false
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu4"
+					"text": "View"
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem1"
+						"text": "Show Uses"
+						"selected": true
+					} )
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem2"
+						"text": "Show Inheritance"
+						"selected": true
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator10"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem3"
+						"text": "Show Debugger"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem4"
+						"text": "Show Terminal"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem5"
+						"text": "Show Code Pad"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem6"
+						"text": "Show Team and Test Controls"
+					} )
+					add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+						name: "checkBoxMenuItem7"
+						"text": "Show Test Results"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu5"
+					"text": "Help"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem36"
+						"text": "About BlueJ"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem37"
+						"text": "Check Version"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem38"
+						"text": "Installed Extentions"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem39"
+						"text": "Copyright"
+					} )
+					add( new FormComponent( "javax.swing.JPopupMenu$Separator" ) {
+						name: "separator11"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem40"
+						"text": "BlueJ Website"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem41"
+						"text": "Online Documentation"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem42"
+						"text": "Interactive Tutorial"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem43"
+						"text": "Java Class Libraries"
+					} )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 135, 0 )
+			"size": new java.awt.Dimension( 770, 670 )
+		} )
+	}
+}
